@@ -40,12 +40,12 @@ header {
 .dropdown {
   position: absolute;
   top: 40px;
+  border: 2px solid transparent;
   left: 30px;
-  display: none;
   border-radius: 8px;
   transition: all cubic-bezier(0.95, 1.36, 0.28, 0.14) 0.5s;
-  border-radius: 18px;
   z-index: 1;
+  display: none;
 }
 .dropdown li {
   color: #ff6652;
