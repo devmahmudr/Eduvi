@@ -100,7 +100,7 @@ header {
   color: #0a033c;
   -moz-column-gap: 10px;
        column-gap: 10px;
-  padding: 12px;
+  padding: 0 12px;
   position: relative;
 }
 
@@ -126,7 +126,7 @@ header {
 
 .dropdown {
   position: absolute;
-  top: 40px;
+  top: 18px;
   border: 2px solid transparent;
   left: 30px;
   border-radius: 18px !important;
@@ -160,6 +160,10 @@ header {
 
 .header__right {
   position: relative;
+}
+
+.form1-active {
+  cursor: pointer;
 }
 
 .hero {
@@ -592,12 +596,14 @@ header {
   max-height: 800px;
   height: 100%;
   z-index: 1;
-  padding: 100px 90px;
+  padding: 90px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   background: #ffffff;
   border-radius: 15px;
+  transition: all ease 1s;
+  transform: translateX(400px);
+  display: none;
 }
 
 .fomr1-title {
@@ -607,4 +613,81 @@ header {
   color: #0a033c;
   margin-bottom: 30px;
   margin-top: 15px;
+}
+
+.form1photo {
+  width: 396px;
+  height: 392px;
+}
+
+.google-llnk {
+  background: #ffffff;
+  border: 1px solid #dedde4;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  padding-right: 60px;
+}
+
+.form-bot {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-bot-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0a033c;
+}
+
+.form-bot input {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #dedde4;
+  border-radius: 10px;
+  outline: none;
+}
+
+.signup-btn {
+  padding: 10px 0;
+  text-align: center;
+  background: #9c4df4;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  border: none;
+  width: 350px;
+  margin: 25px 0;
+}
+
+.signin-link {
+  color: #9c4df4;
+  text-align: center;
+}
+
+.show {
+  display: flex;
+  transition: all ease 1s;
+  transform: translateX(400px);
+}
+
+.main-blur {
+  filter: blur(5px);
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
 }/*# sourceMappingURL=main.css.map */

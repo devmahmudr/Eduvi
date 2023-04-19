@@ -1,4 +1,7 @@
 const upper = document.querySelector(".upper")
+const form1 = document.querySelector('.form1-active')
+const form1Active = document.querySelector('.form1')
+const main = document.querySelector("main")
 
 window.addEventListener("scroll",  e =>{
     console.log(window.scrollY);
@@ -10,4 +13,10 @@ window.addEventListener("scroll",  e =>{
 })
 upper.addEventListener("click", evt =>{
     scrollTo(0,0)
+})
+
+form1.addEventListener("click", ()=>{
+    form1Active.classList.toggle("show")
+    main.classList.toggle("main-blur")
+    upper.style.display = "none"
 })

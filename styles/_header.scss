@@ -18,7 +18,7 @@ header {
   line-height: 16px;
   color: #0a033c;
   column-gap: 10px;
-  padding: 12px;
+  padding: 0 12px;
   position: relative;
 }
 .header__right a {
@@ -39,7 +39,7 @@ header {
 
 .dropdown {
   position: absolute;
-  top: 40px;
+  top: 18px;
   border: 2px solid transparent;
   left: 30px;
   border-radius: 18px !important;
@@ -69,4 +69,7 @@ header {
 }
 .header__right{
   position: relative;
+}
+.form1-active{
+  cursor: pointer;
 }

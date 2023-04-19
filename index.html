@@ -76,22 +76,48 @@
         </div>
         <div class="header__right">
             <a href="#">Cart (0) <img src="./images/icons/card.svg" alt="" width="30px" height="30px"></a>
-            <a href="#">My Account <img src="./images/icons/account.svg" alt="" width="30px" height="30px"></a>
-                <div class="form1">
-                    <div class="form1__left">
-                        <img src="./images/icons/formlogo.svg" alt="" class="formlogo">
-                        <h1 class="fomr1-title">
-                            Welcome to <br>
-                            Eduvi Online <br>
-                            Learning Platform
-                        </h1>
-                        <img src="./images/icons/formphoto.svg" alt="" class="form1photo">
-                    </div>
+            <a class="form1-active">My Account <img src="./images/icons/account.svg" alt="" width="30px"
+                    height="30px"></a>
+            <div class="form1">
+                <div class="form1__left">
+                    <img src="./images/icons/formlogo.svg" alt="" class="formlogo">
+                    <h1 class="fomr1-title">
+                        Welcome to <br>
+                        Eduvi Online <br>
+                        Learning Platform
+                    </h1>
+                    <img src="./images/icons/formphoto.svg" alt="" class="form1photo">
                 </div>
+                <hr>
+                <form class="form1__right">
+                    <div class="form__top">
+                        <a href="https://google.com" class="google-llnk"><img src="./images/icons/google.svg" alt=""
+                                class="google">Signup
+                            with google
+                        </a>
+                        <p class="form-bot-title">- Or signup with your email -</p>
+                    </div>
+                    <div class="form-bot">
+                        <label for="name">Full name</label>
+                        <input type="text" name="" id="name" placeholder="Esther Howard" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="bill.sanders@example.com" required>
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="password" placeholder="**********" required>
+                        <div class="checkbox">
+                            <input type="checkbox" required id="checkbox">
+                            <span>I agreed to the Terms & Conditions</span>
+                        </div>
+                        <a href="#"><button class="signup-btn">Sign Up</button></a>
+                        <a href="#" class="signin-link">Alreay have account? <span class="signin-link">Sign
+                                in</span></a>
+                    </div>
+                </form>
+            </div>
         </div>
     </header>
     <main class="container">
-        <!-- <div class="hero">
+        <div class="hero">
             <div class="hero__left">
                 <p class="hero-white-title">Never Stop Learning</p>
                 <h1 class="hero-title">
@@ -183,7 +209,7 @@
                     <p>College</p>
                 </div>
             </div>
-        </div> -->
+        </div>
     </main>
     <div class="upper"><img src="/images/icons/arrow.svg" alt="" class="arrow"></div>
 
