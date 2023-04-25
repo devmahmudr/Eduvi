@@ -1,9 +1,9 @@
 .form1 {
   position: fixed;
-  top: 140px;
-  left: 220px;
-  width: 900px;
-  max-height: 800px;
+  top: 4vh;
+  left: -6vw;
+  width: 67vw;
+  max-height: 100vh;
   height: 100%;
   z-index: 1;
   padding: 90px;
@@ -74,6 +74,7 @@ label {
 .signin-link {
   color: #9c4df4;
   text-align: center;
+  cursor: pointer;
 }
 .show {
   display: flex;
@@ -83,8 +84,24 @@ label {
 .main-blur {
   filter: blur(5px);
 }
-.checkbox{
+.checkbox {
   display: flex;
   align-items: center;
   column-gap: 12px;
+}
+.close-btn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 30px;
+  top: 37px;
+  cursor: pointer;
+}
+.back-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  cursor: pointer;
 }

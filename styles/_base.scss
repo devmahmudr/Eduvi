@@ -21,34 +21,34 @@ a {
   width: 100%;
   margin: 0 auto;
 }
-.upper{
+.upper {
   border: 10px solid transparent;
   border-radius: 50px;
   background: #ff6652;
   width: max-content;
-  padding: 4px 6px ;
+  padding: 4px 6px;
   animation-name: upper;
   animation-iteration-count: 1;
   animation-duration: 0.7s;
   animation-direction: normal;
   position: fixed;
-  left: 30px;
-  top: 550px;
+  left: -350px;
+  top: 80vh;
   display: none;
   cursor: pointer;
 }
-.show{
+.show {
   display: block;
 }
-.arrow{
+.arrow {
   width: 20px;
   height: 20px;
 }
-@keyframes upper{
-  from{
+@keyframes upper {
+  from {
     transform: translateX(-200px);
   }
-  to{
-    transform: translateX(0);
+  to {
+    transform: translateX(10px);
   }
 }
