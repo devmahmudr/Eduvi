@@ -105,3 +105,29 @@ label {
   top: 37px;
   cursor: pointer;
 }
+@media only screen and (max-width: 375px) {
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  .form1 {
+    position: fixed;
+    top: 1vh;
+    left: 0;
+    width: 17vw;
+    max-height: 10vh;
+    height: 100%;
+    z-index: 1;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+    transition: all ease 1s;
+    transform: translateX(400px);
+    display: none;
+  }
+  .form1__left{
+    display: none;
+  }
+}

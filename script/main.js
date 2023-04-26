@@ -6,6 +6,8 @@ const closeBtn = document.querySelectorAll(".close-btn");
 const signin = document.querySelector(".signin-link");
 const formbot = document.querySelector(".form-bot");
 const backBtn = document.querySelector("back-btn")
+const menu = document.querySelector('.menu')
+const burger = document.querySelector('.burger')
 
 window.addEventListener("scroll", (e) => {
   console.log(window.scrollY);
@@ -35,6 +37,10 @@ signin.addEventListener("click", () => {
   formbot.style.display = "none";
 });
 
-backBtn.addEventListener("click", ()=>{
+// backBtn.addEventListener("click", ()=>{
     
+// })
+
+burger.addEventListener("click", ()=>{
+  menu.classList.toggle("menu-show")
 })
